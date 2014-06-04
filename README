@@ -1,12 +1,12 @@
-Florea Stefan - Razvan
-341 C3
-Compilers homework 1: Syntactic Analysis
+Syntactic Analysis for LCPL programming language
 
-This archive contains a Makefile file which has rules for build, clean and run.
-The rule for run uses a lcpl program file that has to be in a folder "test" and
-puts the output(an serialized ast tree) in a file from "bin" folder.
-The sources are: the classes for generating the tree that Compilers course team
-provide us,  "LCPLClass.java" that uses the classes that are generated for running
-and two grammars, one for parsing the input file and generating the AST and one
-for parsing the AST and generating the tree program.
-The homework is working completely.
+LCPL is an academic programming language written by past students at University
+Politehnica of Bucharest and is used by students during the Compilers course.
+
+This project contains a Makefile file which has rules for build, clean and run.
+The rule for run uses a lcpl input code file that has to be in a folder "test"
+and puts the output(an serialized AST[abstract syntax tree] tree) in a file from
+"bin" folder.The sources are: the classes for generating the tree that Compilers
+course team provide us,  "LCPLClass.java" that uses the classes that are
+generated for running and two ANTLR grammars, one for parsing the input file and
+generating the AST and one for parsing the AST and generating the tree program.
